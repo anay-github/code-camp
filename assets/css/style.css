@@ -1,8 +1,9 @@
 /*Reset Box Model*/
 * {
     box-sizing: border-box;
-    ;-behavior: smooth;
+    scroll-behavior: smooth;
   }
+
   /*Utility Classes*/
   .container{
     width:80vw;
@@ -81,7 +82,7 @@
     flex-direction: row;
     justify-content: center;
     margin:0;
-    pading:0;
+    padding:0;
     gap:200px;
   }
   
@@ -151,7 +152,7 @@
     display:flex;
     gap:20px;
     justify-content: space-evenly;
-    flex direction:row;
+    flex-direction:row;
   }
   
   aside article h1{
