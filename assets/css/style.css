@@ -163,6 +163,10 @@
     color:#E31E27;
   }
   
+.widget header h1{
+  color:#E31E27;
+}
+
   aside footer{
     display:none;
   }
